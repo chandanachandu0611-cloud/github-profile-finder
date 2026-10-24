@@ -1,16 +1,37 @@
-# React + Vite
+# 🔍 GitHub Profile Finder (`github-profile-finder`)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, feature-rich web application built with **React and Vite** that allows users to seamlessly search for any GitHub profile, inspect user metrics, view public repositories, and toggle between dark and light themes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🌐 Live Demo
+Check out the fully deployed application here:  
+👉 **[View Live on Vercel](https://github-profile-finder-taupe-ten.vercel.app)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✨ Key Features
+* **Live User Search:** Query any valid GitHub username using the official GitHub REST API (`https://api.github.com/users/{username}`).
+* **Comprehensive Stats Overview:** Displays avatar, name, bio, public repository count, followers, following, location, and member since date.
+* **Repository Showcase:** Lists public repositories associated with the searched username for quick exploration.
+* **Search History:** Tracks recent searches in interactive pills/buttons so you can jump back to previous profiles instantly.
+* **Dark / Light Mode Toggle:** Fully customizable theme switching for comfortable day/night viewing.
+* **Responsive Design:** Fluid layouts optimized seamlessly for mobile devices, tablets, and desktops.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Tech Stack
+* **Frontend:** React, Vite, Modern CSS
+* **API:** GitHub REST API (`/users/{username}`, `/users/{username}/repos`)
+* **Deployment & Version Control:** Vercel, Git & GitHub
+
+---
+
+### 💻 Local Setup & Installation
+
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Chandanachandu0611-cloud/github-profile-finder.git](https://github.com/Chandanachandu0611-cloud/github-profile-finder.git)
+   cd github-profile-finder
